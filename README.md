@@ -42,20 +42,21 @@ Projeto real, feito sob demanda para uma veterinária que buscava uma **landing 
    git clone https://github.com/AnaMenires/allpatinhas.git
 
 3. Acesse a pasta do projeto e instale as dependências:
-    ```npm install
+    npm install
 
 4. Inicie o servidor local:
-     ```npm run dev
-
+     npm run dev
 
 Acesse no navegador: http://localhost:5173
 
+---
 
 🌐 Link do projeto publicado
 
 👉 allpatinhas.vercel.app
 
 
+---
 
 💡 Sobre o projeto
 
