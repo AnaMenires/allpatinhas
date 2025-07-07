@@ -30,30 +30,12 @@ Projeto real, feito sob demanda para uma veterinária que buscava uma **landing 
 - **JavaScript (ES6+)**
 - **Phosphor Icons**
 
-
-
 ---
 
-## 🚀 Como executar localmente
 
-1. Tenha o **Node.js** instalado
-2. Clone este repositório:
-   ```bash
-   git clone https://github.com/AnaMenires/allpatinhas.git
-
-3. Acesse a pasta do projeto e instale as dependências:
-    npm install
-
-4. Inicie o servidor local:
-     npm run dev
-
-Acesse no navegador: http://localhost:5173
-
----
-
-🌐 Link do projeto publicado
-
-👉 allpatinhas.vercel.app
+## 🌐 Link publicado
+Você também pode acessar pelo link:
+👉 https://allpatinhas.vercel.app/
 
 
 ---
