@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
-import Allpatinhas_logo from "../assets/logo_allpatinhas.png";
+import Allpatinhas_logo from "../assets/Allpatinhas_logo.png";
 import dra_mariane_vet from "../assets/dra_mariane_vet.png";
 import { MapPinAreaIcon, ListIcon, XIcon } from "@phosphor-icons/react";
 import Button from "./Button";
 import BotaoFlutuante from "./BotaoFlutuante";
+
 
 const PrimeiraSecao = () => {
   const [menuAberto, setMenuAberto] = React.useState(false);
@@ -23,6 +24,8 @@ const PrimeiraSecao = () => {
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+     
 
   return (
     <div className="w-full py-3 px-6 flex flex-col bg-gradient-to-b from-cyan-300 to-[#d9f0fa] ">
@@ -75,8 +78,7 @@ const PrimeiraSecao = () => {
       <div
         className={`md:hidden fixed top-0 left-0 w-full h-screen bg-white z-20 transition-transform duration-300 ease-in-out ${
           menuAberto ? "translate-y-0" : "-translate-y-full"
-        }`}
-      >
+        }`}>
         <div className="flex flex-col items-center pt-24 gap-6 text-[#065f46] font-medium">
           <a href="#servicos" onClick={() => setMenuAberto(false)}>
             Serviços
@@ -96,8 +98,9 @@ const PrimeiraSecao = () => {
 
       <div className="flex flex-col items-center justify-center text-center gap-8 md:flex-row md:text-left md:gap-16">
         <div className="max-w-md">
+                                                                                                                
           <h1 className="text-[#065f46] font-bold text-3xl mb-2">
-            Atendimento Veterinário à Domicílio
+            Atendimento Veterinário em Casa
           </h1>
           <h2 className="text-lg text-[#065f46] font-light mb-2">
             Evite deslocamentos, trânsito e estresse

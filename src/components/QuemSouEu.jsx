@@ -25,7 +25,7 @@ const QuemSouEu = () => {
             <br />
             <br />
             Realizamos <strong>consultas, exames, vacinação e Pet Sitter</strong> com
-            empatia e compromisso com a saúde do seu animal — no ambiente em que
+            empatia e compromisso com a saúde do seu animal no ambiente em que
             ele se sente mais seguro: a sua casa.
             <br />
             <br />

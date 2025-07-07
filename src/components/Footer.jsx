@@ -52,7 +52,7 @@ const Footer = () => {
             </li>
             <li className="flex gap-1 items-center">
               <ClockIcon size={20} className="text-[#64a654]" />
-              07:30 às 23:30
+              07:30 às 20:00
             </li>
             <li className="flex gap-1 items-center">
               <CalendarCheckIcon size={20} className="text-[#64a654]" />
@@ -60,7 +60,7 @@ const Footer = () => {
             </li>
             <li className="flex gap-1 items-center">
               <ClockIcon size={20} className="text-[#64a654]" />
-              Agendamento 07:30 às 21:00
+              Agendamento 07:30 às 20:00
             </li>
           </ul>
         </div>
