@@ -115,6 +115,8 @@ const PrimeiraSecao = () => {
             className="inline-block bg-[#64a654] text-white font-semibold py-2 px-4 rounded-full mt-5 shadow-md hover:bg-[#518a44] hover:scale-105 transition-transform duration-300"
             text="Falar com a Veterinária 🐾"
           />
+           <h3 className="text-sm text-[#065f46] font-medium p-3">
+   * Atendimento Particular e Presencial </h3>
         </div>
 
         <div className="flex justify-center">
